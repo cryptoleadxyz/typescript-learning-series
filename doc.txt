@@ -1,5 +1,11 @@
-url = https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI
+tutorial series url = https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI
+turorial github url = https://github.com/iamshaunjp/typescript-tutorial
 
 /////
 prerequisite
 - install nodejs (nodejs.org)
+- install typescript compiler (this compiles typescript to regular javascript for web deployment) - "npm install -g typescript"
+- install "live server" extension on vscode
+
+workflow
+- to automatically compile continuously - "tsc [filename.ts] -w"
